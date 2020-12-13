@@ -1,4 +1,4 @@
-const { Client, ClientOptions } = require('whatsapp-web.js');
+const { Client } = require('whatsapp-web.js');
 const { loadQR } = require('./login');
 
 
