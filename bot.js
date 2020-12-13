@@ -1,7 +1,15 @@
-const { Client } = require('whatsapp-web.js');
+const { Client, ClientOptions } = require('whatsapp-web.js');
 const { loadQR } = require('./login');
 
-const client = new Client();
+
+
+const client = new Client({
+    puppeteer: {
+        args: [
+            '--no-sandbox',
+        ],
+    },
+});
 
 
 client.on('qr', (qr) => {
