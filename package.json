@@ -10,7 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jimp": "^0.16.1",
     "open": "^7.3.0",
-    "whatsapp-web.js": "^1.11.1"
+    "whatsapp-web.js": "^1.12.4"
   }
 }
